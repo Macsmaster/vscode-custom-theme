@@ -1,0 +1,84 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+      },
+      "editor.formatOnSave": false
+      },
+
+      "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "sideBar.foreground": "#cfc8c8",
+            "sideBar.background": "#181717",
+            "sideBarSectionHeader.background": "#0b1014",
+            "editor.background": "#00000023",
+            "breadcrumb.background": "#0b1014",
+            "statusBar.background": "#182027",
+            "statusBar.foreground": "#6287f5",
+            "minimap.background": "#0b1014",
+            "titleBar.activeBackground": "#0b1014",
+            "editorGroupHeader.tabsBackground": "#0b1014",
+            "activityBar.background": "#14304b7f",
+            "tab.inactiveBackground": "#15181b",
+            "tab.activeBackground": "#50789a25",
+            "tab.activeBorder": "#ffd866",
+            "terminal.background": "#131313",
+            "terminal.border": "#ffd866",
+            "terminal.foreground": "#ffd866"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+      "[Default Dark+]": {
+          "textMateRules": [
+              {
+                "scope": [
+                  "comment",
+                  "entity.name.type.class",
+                  "keyword", 
+                  "constant", 
+                  "storage.modifier", 
+                  "storage.type.class.js"
+                  
+                ],
+                "settings": {
+                  "foreground": "#1b9ade"
+                }
+              },
+              {
+                "scope": [
+                  "comment"
+                ],
+                "settings": {
+                  "foreground": "#40a152"
+                }
+              },
+              {
+                "scope": "string",
+                "settings": {
+                  "foreground": "#f99999"
+                }
+              },
+              {
+                  "scope": "string.unquoted",
+                  "settings": {
+                      "foreground": "#21e2d2"
+                  }
+              }
+          ]
+      }
+  },
+    "[typescript]": {
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+      },
+      "editor.formatOnSave": false
+    },
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.rulers": [
+    180
+  ]
+  }
